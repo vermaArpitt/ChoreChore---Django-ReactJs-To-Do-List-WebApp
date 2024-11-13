@@ -3,6 +3,7 @@ import api from "../api"
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
+import "../styles/Form.css"
 
 
 export default function Form({route, method}) {
